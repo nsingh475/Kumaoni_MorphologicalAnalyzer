@@ -1,8 +1,8 @@
 import sys
 
 print('digraph G { rankdir="LR"')
-print('node [fontname="Lohit Devanagari",shape=circle,fontsize=14,fixedsize=true,fillcolor="grey",style=filled]')
-print('edge [fontname="Lohit Devanagari",fontsize=14]')
+print('node [fontname="Noto Serif Devanagari",shape=circle,fontsize=14,fixedsize=true,fillcolor="grey",style=filled]')
+print('edge [fontname="Noto Serif Devanagari",fontsize=14]')
 
 # Read input as bytes and decode using UTF-8 encoding
 input_bytes = sys.stdin.buffer.read()
