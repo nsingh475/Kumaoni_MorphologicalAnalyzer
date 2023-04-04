@@ -1,0 +1,42 @@
+Multichar_Symbols
+
+%>          ! Morpheme Border
+%<v%>       ! Verb Stem
+
+%<p1%>      ! First Person
+%<p2%>      ! Second Person
+%<p3%>      ! Third Person
+
+%<sg%>      ! Singular
+%<pl%>      ! Plural
+
+%<m%>       ! Masculine
+%<f%>       ! Feminine
+
+LEXICON Root
+
+Verb;
+
+LEXICON v
+%<p1%>%<sg%>%<f%> : %>मोए  #;
+%<p1%>%<sg%>%<m%> : %>मोए   #;
+%<p1%>%<pl%>%<f%> : %>मोए   #;
+%<p1%>%<pl%>%<m%> : %>मोए   #;
+
+%<p2%>%<sg%>%<f%> : %>मछा  #;
+%<p2%>%<sg%>%<m%> : %>मछा  #;
+%<p2%>%<pl%>%<f%> : %>मछा  #;
+%<p2%>%<pl%>%<m%> : %>मछा  #;
+
+%<p3%>%<sg%>%<f%> : %>मैं  #;
+%<p3%>%<sg%>%<m%> : %>मो  #;
+%<p3%>%<pl%>%<f%> : %>मईं  #;
+%<p3%>%<pl%>%<m%> : %>मईं  #;
+ 
+
+LEXICON Verb
+
+जा : जा  v  ;    ! to go
+खा  : खा   v;    ! to eat
+रु  : रु   v;    ! to cry
+पि  : पि   v;    ! to drink
